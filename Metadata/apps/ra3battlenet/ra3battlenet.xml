@@ -59,7 +59,7 @@
                 </Contents>
             </Post>
         </Posts>
-            <UpdateKind ID="Self" DisplayName="客户端程序" Current="0.0.16-sim"
+            <UpdateKind ID="Self" DisplayName="客户端程序" Current="0.0.21-sim"
                     BaseUrl="https://objects.ra3battle.net/updater_test2/RA3BattleNet/"
                     FallbackBaseUrl="">
             <Updater Version="0.0.16-sim"
@@ -68,6 +68,12 @@
                      Size="687"
                      ReleaseDate="2026-09-29"
                      Commit="v0.0.16-sim" />
+            <Updater Version="0.0.21-sim"
+                     Source="https://objects.ra3battle.net/updater_test2/RA3BattleNet/manifests/manifest-0.0.21-sim.xml"
+                     Hash="3EF7058EE355B6305310C7DE18BADBB3"
+                     Size="687"
+                     ReleaseDate="2026-09-29"
+                     Commit="v0.0.21-sim" />
         </UpdateKind>
 
 </Application>
