@@ -59,5 +59,17 @@
                 </Contents>
             </Post>
         </Posts>
+    
+        <UpdateKind ID="Self" DisplayName="客户端程序" Current="0.0.19-sim"
+                    BaseUrl="https://objects.ra3battle.net/updater_test2/RA3BattleNet/"
+                    FallbackBaseUrl="">
+            <Updater Version="0.0.19-sim"
+                     Source="https://objects.ra3battle.net/updater_test2/RA3BattleNet/manifests/manifest-0.0.19-sim.xml"
+                     Hash="06D31A0CB2338D50187A8A6E1E41FB30"
+                     Size="687"
+                     ReleaseDate="2026-09-29"
+                     Commit="v0.0.19-sim" />
+        </UpdateKind>
+
     </Application>
 </Metadata>
