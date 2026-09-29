@@ -60,7 +60,7 @@
             </Post>
         </Posts>
     
-        <UpdateKind ID="RA3BattleNet" DisplayName="客户端程序" Current="1.0.0.1"
+        <UpdateKind ID="RA3BattleNet" DisplayName="客户端程序" Current="1.0.0.2"
                     BaseUrl="https://objects.ra3battle.net/updater_test2/RA3BattleNet/"
                     FallbackBaseUrl="">
             <Updater Version="1.0.0.0"
@@ -75,6 +75,12 @@
                      Size="17352"
                      ReleaseDate="2026-09-29"
                      Commit="v1.0.0.1" />
+            <Updater Version="1.0.0.2"
+                     Source="https://objects.ra3battle.net/updater_test2/RA3BattleNet/manifests/manifest-1.0.0.2.xml"
+                     Hash="399DFBA29F28A0CE655FC57D493A3159"
+                     Size="17352"
+                     ReleaseDate="2026-09-29"
+                     Commit="v1.0.0.2" />
         </UpdateKind>
 
     </Application>
