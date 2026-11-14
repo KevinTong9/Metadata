@@ -25,7 +25,7 @@
         <DisplayName Language="zh">将军2</DisplayName>
         <DisplayName Language="en">Generals 2</DisplayName>
         <Style>
-            <Logo Width="400" Position="BottomLeft" OffsetX="50" OffsetY="-50">generals2-logo</Logo>
+            <Logo Width="400" Position="BottomLeft" OffsetX="30" OffsetY="-30">generals2-logo</Logo>
             <Controls>
                 <PrimaryLabel>
                     <Color>#FFFFFF</Color>
