@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata>
+    <Tags>
+        <Commit>${TIMESTAMP}</Commit>
+    </Tags>
+    <Includes>
+        <Include Source="manifests/manifests.xml" />
+    </Includes>
+
+    <Markdown ID="intro-zh" Source="posts/introduction-zh.md" />
+    <Markdown ID="intro-en" Source="posts/introduction-en.md" />
+    <Image ID="generals2-icon" Source="images/generals2-icon.webp" />
+    <Image ID="generals2-logo" Source="images/generals2-logo.webp" />
+    <Image ID="generals2-bg-1" Source="images/generals2-bg-1.webp" />
+    <Image ID="generals2-bg-2" Source="images/generals2-bg-2.webp" />
+    <Image ID="generals2-bg-3" Source="images/generals2-bg-3.webp" />
+    <Image ID="generals2-bg-4" Source="images/generals2-bg-4.webp" />
+    <Image ID="generals2-bg-5" Source="images/generals2-bg-5.webp" />
+    <Image ID="generals2-bg-6" Source="images/generals2-bg-6.webp" />
+    <Image ID="generals2-bilibili" Source="images/generals2-bilibili.webp" />
+
+    <Mod ID="generals2">
+        <CurrentVersion>1.89</CurrentVersion>
+        <Icon>generals2-icon</Icon>
+        <DisplayName Language="zh">将军2</DisplayName>
+        <DisplayName Language="en">Generals 2</DisplayName>
+        <Style>
+            <Logo Width="400" Position="BottomLeft" OffsetX="50" OffsetY="-50">generals2-logo</Logo>
+            <Controls>
+                <PrimaryLabel>
+                    <Color>#FFFFFF</Color>
+                    <FontSize>16</FontSize>
+                    <FontWeight>700</FontWeight>
+                </PrimaryLabel>
+                <SecondaryLabel>
+                    <Color>#C9C3B6</Color>
+                    <FontSize>11</FontSize>
+                    <FontWeight>400</FontWeight>
+                </SecondaryLabel>
+                <PrimaryButton>
+                    <BorderColor>#C0393E</BorderColor>
+                    <BorderWidth>1</BorderWidth>
+                    <BackgroundColor>#9A181D</BackgroundColor>
+                    <Color>#FFFFFF</Color>
+                    <FontSize>14</FontSize>
+                    <FontWeight>700</FontWeight>
+                    <Hover>
+                        <BackgroundColor>#C0393E</BackgroundColor>
+                        <BorderColor>#E07075</BorderColor>
+                    </Hover>
+                    <Active>
+                        <BackgroundColor>#6F1013</BackgroundColor>
+                        <BorderColor>#4A1013</BorderColor>
+                    </Active>
+                </PrimaryButton>
+                <SecondaryButton>
+                    <BorderColor>#FFFFFF55</BorderColor>
+                    <BorderWidth>1</BorderWidth>
+                    <BackgroundColor>#100B0CA6</BackgroundColor>
+                    <Color>#EDE8DB</Color>
+                    <FontSize>13</FontSize>
+                    <FontWeight>500</FontWeight>
+                    <Hover>
+                        <BorderColor>#FFFFFFAA</BorderColor>
+                        <BackgroundColor>#1B1214CC</BackgroundColor>
+                    </Hover>
+                    <Active>
+                        <BackgroundColor>#000000CC</BackgroundColor>
+                    </Active>
+                </SecondaryButton>
+            </Controls>
+            <Background Random="true">
+                <Image>generals2-bg-1</Image>
+                <Image>generals2-bg-2</Image>
+                <Image>generals2-bg-3</Image>
+                <Image>generals2-bg-4</Image>
+                <Image>generals2-bg-5</Image>
+                <Image>generals2-bg-6</Image>
+                <Color>#100A0BE6</Color>
+                <SecondaryColor>#150F10F2</SecondaryColor>
+            </Background>
+        </Style>
+        <Packages>
+            <Package Version="1.89">
+                <ReleaseDate>2026-11-14</ReleaseDate>
+                <Manifest>manifest-189</Manifest>
+            </Package>
+        </Packages>
+        <Posts>
+            <Post Type="introduction" DateTime="2026-11-14T00:00:00+08:00">
+                <Titles>
+                    <Title Language="zh">模组介绍</Title>
+                    <Title Language="en">Introduction</Title>
+                </Titles>
+                <Descriptions>
+                    <Description Language="zh">TRINITY_遗忘 制作的《红色警戒3》模组，2015 年立项，最初目标是还原 EA 于 2013 年停止开发的《命令与征服：将军2》。</Description>
+                    <Description Language="en">A Red Alert 3 mod by TRINITY_遗忘, started in 2015 to recreate Command &amp; Conquer: Generals 2, which EA stopped developing in 2013.</Description>
+                </Descriptions>
+                <Contents>
+                    <Content Language="zh">intro-zh</Content>
+                    <Content Language="en">intro-en</Content>
+                </Contents>
+            </Post>
+        </Posts>
+        <Links>
+            <Link Url="https://space.bilibili.com/8123353">
+                <Icon>generals2-bilibili</Icon>
+                <DisplayName Language="zh">开发者B站主页</DisplayName>
+                <DisplayName Language="en">Bilibili</DisplayName>
+            </Link>
+        </Links>
+    </Mod>
+</Metadata>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata>
+    <Tags>
+        <Commit>${TIMESTAMP}</Commit>
+    </Tags>
+    <Includes>
+    </Includes>
+    <Manifest ID="manifest-189" HashAlgorithm="CRC32C">
+        <Skudef GameVersion="1.12" FileName="Generals2_1.89.skudef">
+            <AddBig File="Generals2_1.89.big" />
+        </Skudef>
+        <File Hash="FBDE6883" Size="229524534" DownloadName="Generals2_1.89.zst" Compression="zstd">
+            <FileName>Generals2_1.89.big</FileName>
+            <RelativePath>/</RelativePath>
+            <KindOf>MOD;</KindOf>
+            <Sources>
+                <Source Type="HTTP" Url="https://object.ra3battle.net/mods/generals2/Generals2_1.89.zst" />
+            </Sources>
+        </File>
+    </Manifest>
+</Metadata>
