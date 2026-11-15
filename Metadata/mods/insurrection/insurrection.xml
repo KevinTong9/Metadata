@@ -19,7 +19,7 @@
         <DisplayName Language="zh">起义时刻</DisplayName>
         <DisplayName Language="en">Insurrection</DisplayName>
         <Style>
-            <Logo Width="1" Position="BottomLeft">ins-banner</Logo>
+            <Logo Width="500" Position="Center" OffsetY="100">ins-banner</Logo>
             <Controls>
                 <PrimaryLabel>
                     <Color>#FFFFFF</Color>
