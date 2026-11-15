@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata>
+    <Tags>
+        <Commit>${TIMESTAMP}</Commit>
+    </Tags>
+    <Includes>
+    </Includes>
+    <Manifest ID="manifest-201" HashAlgorithm="CRC32C">
+        <Skudef GameVersion="1.12" FileName="Insurrection_2.01.skudef">
+            <AddBig File="Insurrection_2.01.big" />
+        </Skudef>
+        <File Hash="4516F6FC" Size="752978119" DownloadName="Insurrection_2.01.zst" Compression="zstd">
+            <FileName>Insurrection_2.01.big</FileName>
+            <RelativePath>/</RelativePath>
+            <KindOf>MOD;</KindOf>
+            <Sources>
+                <Source Type="HTTP" Url="http://object.ra3battle.net/mods/ins/Insurrection_2.01.zst" />
+            </Sources>
+        </File>
+    </Manifest>
+</Metadata>

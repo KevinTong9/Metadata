@@ -23,5 +23,6 @@
         <Include Source="moui/moui.xml" />
         <Include Source="uimod/uimod.xml" />
         <Include Source="ra3-censorship-patch/ra3-censorship-patch.xml" />
+        <Include Source="insurrection/insurrection.xml" />
     </Includes>
 </Metadata>

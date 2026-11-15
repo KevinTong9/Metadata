@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metadata>
+    <Tags>
+        <Commit>${TIMESTAMP}</Commit>
+    </Tags>
+    <Includes>
+        <Include Source="manifests/manifests.xml" />
+    </Includes>
+
+    <Markdown ID="intro-zh" Source="posts/introduction-zh.md" />
+    <Markdown ID="intro-en" Source="posts/introduction-en.md" />
+    <Image ID="ins-icon" Source="images/ins-icon.webp" />
+    <Image ID="ins-banner" Source="images/ins-banner.webp" />
+    <Image ID="ins-bg-1" Source="images/ins-bg-1.webp" />
+
+    <Mod ID="Insurrection">
+        <CurrentVersion>2.01</CurrentVersion>
+        <Icon>ins-icon</Icon>
+        <DisplayName Language="zh">起义时刻</DisplayName>
+        <DisplayName Language="en">Insurrection</DisplayName>
+        <Style>
+            <Logo Width="1" Position="BottomLeft">ins-banner</Logo>
+            <Controls>
+                <PrimaryLabel>
+                    <Color>#FFFFFF</Color>
+                    <FontSize>16</FontSize>
+                    <FontWeight>700</FontWeight>
+                </PrimaryLabel>
+                <SecondaryLabel>
+                    <Color>#C9C3B6</Color>
+                    <FontSize>11</FontSize>
+                    <FontWeight>400</FontWeight>
+                </SecondaryLabel>
+                <PrimaryButton>
+                    <BorderColor>#C0393E</BorderColor>
+                    <BorderWidth>1</BorderWidth>
+                    <BackgroundColor>#9A181D</BackgroundColor>
+                    <Color>#FFFFFF</Color>
+                    <FontSize>14</FontSize>
+                    <FontWeight>700</FontWeight>
+                    <Hover>
+                        <BackgroundColor>#C0393E</BackgroundColor>
+                        <BorderColor>#E07075</BorderColor>
+                    </Hover>
+                    <Active>
+                        <BackgroundColor>#6F1013</BackgroundColor>
+                        <BorderColor>#4A1013</BorderColor>
+                    </Active>
+                </PrimaryButton>
+                <SecondaryButton>
+                    <BorderColor>#FFFFFF55</BorderColor>
+                    <BorderWidth>1</BorderWidth>
+                    <BackgroundColor>#100B0CA6</BackgroundColor>
+                    <Color>#EDE8DB</Color>
+                    <FontSize>13</FontSize>
+                    <FontWeight>500</FontWeight>
+                    <Hover>
+                        <BorderColor>#FFFFFFAA</BorderColor>
+                        <BackgroundColor>#1B1214CC</BackgroundColor>
+                    </Hover>
+                    <Active>
+                        <BackgroundColor>#000000CC</BackgroundColor>
+                    </Active>
+                </SecondaryButton>
+            </Controls>
+            <Background Random="true">
+                <Image>ins-bg-1</Image>
+                <Color>#100A0BE6</Color>
+                <SecondaryColor>#150F10F2</SecondaryColor>
+            </Background>
+        </Style>
+        <Packages>
+            <Package Version="2.01">
+                <ReleaseDate>2023-10-22</ReleaseDate>
+                <Manifest>manifest-201</Manifest>
+            </Package>
+        </Packages>
+        <Posts>
+            <Post Type="introduction" DateTime="2023-10-22T00:00:00+08:00">
+                <Titles>
+                    <Title Language="zh">模组介绍</Title>
+                    <Title Language="en">Introduction</Title>
+                </Titles>
+                <Descriptions>
+                    <Description Language="zh">把《起义时刻》的单位、地图和平衡改动搬到原版《红色警戒3》，在联机对局里直接能用。</Description>
+                    <Description Language="en">Ports Uprising's units, maps and balance changes into the base Red Alert 3, ready for online matches.</Description>
+                </Descriptions>
+                <Contents>
+                    <Content Language="zh">intro-zh</Content>
+                    <Content Language="en">intro-en</Content>
+                </Contents>
+            </Post>
+        </Posts>
+    </Mod>
+</Metadata>
